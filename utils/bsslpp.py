@@ -106,7 +106,7 @@ class BSSLpp():
 
         Args:
             data_train_k: the set of samples to predict the labels for.
-            labels_train_k: the true labels of samples in data
+            labels_train_k: the labels/pseudo-labels of samples in data
         '''
 
         # initialize sample weights
@@ -188,7 +188,7 @@ class BSSLpp():
         
         Args:
             X_lab: the set of labeled samples
-            y_lab: the set labels of labeled samples
+            y_lab: the labels of labeled samples
             X_unl_all: the set of unlabeled samples
         '''
 
@@ -228,7 +228,7 @@ class BSSLpp():
         
         Args:
             X_train: the set of training samples
-            y_train: the set labels of training samples
+            y_train: the labels of training samples
             X_unl_rest: the set of unlabeled samples
             count: current iteration (counter)
         
